@@ -134,11 +134,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Anaform.cpp" />
+    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="Neuron.cpp" />
+    <ClCompile Include="Ornekler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Anaform.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="Neuron.h" />
+    <ClInclude Include="Ornekler.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Anaform.resx">
